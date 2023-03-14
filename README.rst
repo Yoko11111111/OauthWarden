@@ -21,6 +21,6 @@ Requirements
 Installation
 ============
 
-There will be packages on the pypi page. But you can also
-install it from source code as described, but also like any other
+There will be an package on the pypi page. But you can also
+install it from source code, but also like any other
 Python program it can be installed via the normal ``pip install OauthWarden`` routine.
