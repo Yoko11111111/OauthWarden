@@ -32,18 +32,20 @@ Examples
 Token Checker
 ============
 
-from OauthWarden import warden
+.. code:: python
 
-def test_check_token():
-    # create a test token file
-    with open("tokens.txt", "w") as f:
-        f.write("this is a test")
+    from OauthWarden import warden
 
-    # call the function to check the test file
-    warden.checktoken("tokens.txt")
+    def test_check_token():
+        # create a test token file
+        with open("tokens.txt", "w") as f:
+            f.write("this is a test")
 
-    # delete the test file after the check is complete
-    os.remove("tokens.txt")
+        # call the function to check the test file
+        warden.checktoken("tokens.txt")
+
+        # delete the test file after the check is complete
+        os.remove("tokens.txt")
     
 Bio Changer
 ============
@@ -54,5 +56,5 @@ soon
 Updates
 *******
 
-We will try our best to release new version and fixes as soon as possible please stay patient..
-If you want to support our Project give our repo an star
+We will try our best to release new versions and fixes as soon as possible please stay patient..
+If you want to support our Project please give our repo an star
