@@ -1,12 +1,12 @@
 ####################
-    OauthWarden
+    OauthWarden V1
 ####################
 
 **********
  Overview
 **********
 
-This is a simple twitch wrapper written in python that u can use to build simple scripts fast.
+This is an twitch api wrapper and scraper written in python that u can use to build simple scripts fast.
 
 *******
  Usage
